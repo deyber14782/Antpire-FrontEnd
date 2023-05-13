@@ -1,0 +1,58 @@
+img{
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 90%;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: #e55039;
+    font-family:serif;
+    font-style: normal;
+}
+
+.line{
+    background-color: black;
+    height: -1px;
+    border-style: solid;
+    border-width: 0.1px;
+    margin: auto;
+}
+
+p{
+    text-align: left;
+    margin-left: 3%;
+    font-size: 19px;
+    font-family:serif;
+}
+
+.box{
+    display: grid;
+}
+
+.btn1{
+    color: aliceblue;
+    background-color: #e55039;
+    border-color: black;
+    font-size: 16px;
+    border-radius: 25px;
+    border-width: 1px;
+    font-family:serif;
+    margin: auto;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 2%;
+}
+
+.btn2{
+    color: black;
+    font-family:serif;
+    font-size: 16px;
+    background-color: white;
+    border-color: white;
+    border-width: 0;
+    margin-top: 4%;
+    cursor: pointer;
+}

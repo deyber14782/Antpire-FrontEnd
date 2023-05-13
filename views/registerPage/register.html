@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/views/registerPage/register.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Registro</title>
+</head>
+<body>
+    <button id="back" class="back"><ion-icon class="arrow-back" size="large" name="arrow-back-outline"></ion-icon></button>
+    <h1>¡Empecemos!</h1>
+    <img src="https://firebasestorage.googleapis.com/v0/b/antpire-original.appspot.com/o/3boss.jpeg?alt=media&token=30bb9c2c-e8c5-46a3-81cf-14b375195a8a">
+    <form class="box" id="form">
+        <input id="names" placeholder="Nombres" type="text" name="names"><ion-icon class="input-icon" name="person-outline" size="large"></ion-icon>
+        <input id="lastNames" placeholder="Apellidos" type="text" name="lastNames"><ion-icon class="input-icon" name="person-outline" size="large"></ion-icon>
+        <input id="age" placeholder="Edad" type="number" name="age"><ion-icon class="input-icon" name="calendar-number-outline" size="large"></ion-icon>
+        <input id="email" placeholder="Email" type="email" name="email"><ion-icon class="input-icon" name="mail-outline" size="large"></ion-icon>
+        <input id="salary" placeholder="Sueldo" type="number" name="salary"><ion-icon class="input-icon" name="cash-outline" size="large"></ion-icon>
+        <input id="password" placeholder="Contraseña" type="password" name="password"><ion-icon class="input-icon" name="lock-closed-outline" size="large"></ion-icon>
+        <input id="confirmPassword" placeholder="Confirmar contraseña" type="password" name="confirmPassword"><ion-icon class="input-icon" name="lock-open-outline" size="large"></ion-icon>
+        <select id="frequencySalary" name="frequencySalary">
+            <option value="0">Frecuencia de pago</option>
+            <option value="Semanal">Semanal</option>
+            <option value="Quincenal">Quincenal</option>
+            <option value="Mensual">Mensual</option>
+        </select>
+        <ion-icon class="input-icon" name="arrow-down-outline" size="large"></ion-icon>
+        <button id="register" class="btn">Continuar</button>
+    </form>
+    <script src="/controller/registerPage/register.js"></script>
+</body>
+</html>

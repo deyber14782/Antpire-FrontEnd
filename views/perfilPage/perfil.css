@@ -1,0 +1,108 @@
+header{
+    height: 40px;
+    margin: auto;
+    background-color: #e55039;
+    text-align: center;
+    width: 100%;
+}
+
+h1{
+    color: white;
+    font-family: serif;
+}
+
+h2{
+    font-family: serif; 
+    text-align: left;
+    font-size: 16px;
+    margin-top: 8%;
+}
+
+form{
+    display:grid;
+    border-style: solid;
+    border-color: gainsboro;
+    border-radius: 5px;
+    padding: 4%;
+}
+
+label{
+    font-family: serif;
+    margin-top: 5%;
+    color: #e55039;
+    
+}
+
+input{
+    font-family: serif;
+    font-size: 16px;
+    border-width: 0;
+    margin-top: 2%;
+    border-radius: 25px;
+    color: rgb(0, 0, 0);
+
+}
+
+input:focus{
+    outline: solid #e55039;
+    border-width: 0;
+}
+
+.btn1{
+    background-color: gray;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-top: 10%;
+    margin-left: 7%;
+    cursor: pointer;
+    width: 40%;
+    padding: 1%;
+    font-size: 16px;
+    font-family: serif;
+    color: white;
+    
+}
+
+.btn2{
+    background-color: #e55039;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-top: 4%;
+    margin-left: 7%;
+    cursor: pointer;
+    width: 40%;
+    padding: 1%;
+    font-size: 16px;
+    font-family: serif;
+    color: white;  
+}
+
+
+footer{
+    height: 50px;
+    margin: auto;
+    background-color: #e55039;
+    text-align: center;
+    width: 100%;
+    margin-top: 10%;
+}
+
+button{
+    background-color: #e55039;
+    border-color: #e55039;
+    border-width: 0;
+    margin-top: 2%;
+    margin-left: 3%;
+    cursor: pointer;
+
+}
+
+ion-icon{
+    color: white;
+}
+
+.select{
+    color:black
+}

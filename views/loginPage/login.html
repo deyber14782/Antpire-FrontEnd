@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/views/loginPage/login.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Inicio de sesión</title>
+</head>
+<body>
+    <button id="back" class="back"><ion-icon class="arrow-back" size="large" name="arrow-back-outline"></ion-icon></button>
+    <img src="https://firebasestorage.googleapis.com/v0/b/antpire-original.appspot.com/o/login.png?alt=media&token=3f17a0a6-72c0-4a44-ad34-69714fd23b63">
+    <h1>Bienvenido</h1>
+    <form class="box">
+        <input id="email" placeholder="Email" type="email" name="email"><ion-icon class="input-icon" name="mail-outline" size="large"></ion-icon>
+        <input id="password" placeholder="Contraseña" type="password" name="password"><ion-icon class="input-icon" name="lock-closed-outline" size="large"></ion-icon>
+        <button id="login" class="btn">Iniciar sesión</button>
+    </form>
+    <button id="recovery" class="recoveryPassword">¿Olvidaste tu contraseña?</button>
+    <script src="/controller/loginPage/login.js"></script>
+</body>
+</html>
